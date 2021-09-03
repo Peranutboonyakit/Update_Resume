@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components';
 import Feature from './components/Feature.jsx';
 import Intro from './components/Intro.jsx';
-import Nav from "./components/Nav.jsx";
+//import Nav from "./components/Nav.jsx";
 import Service from './components/Service.jsx';
 import Fade from 'react-reveal'
 import Education from './components/Education.jsx';
@@ -13,8 +13,8 @@ import Education from './components/Education.jsx';
 const App = () => {
   return (
     <>
-      
-        <Nav />
+{/*      
+        <Nav />*/}
       
 
       <Fade left>
@@ -55,6 +55,7 @@ const Container = styled.div`
   position: relative;
 `
 const IntoShape = styled.div`
+  z-index: -1;
   width: 100%;
   height: 100%;
   position: absolute;

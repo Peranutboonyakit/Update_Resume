@@ -34,6 +34,9 @@ const Container = styled.div`
     display: flex;
     padding: 20px;
     z-index: 1;
+    @media only screen and (max-width: 480px){
+        flex-direction: column;
+    }
 `
 const Left = styled.div`
    width: 60%;
@@ -41,19 +44,36 @@ const Left = styled.div`
    flex-direction: column;
    align-items: center;
    justify-content: center;
+
+   @media only screen and (max-width: 480px){
+        width: 100%;
+        height: 100%;
+    }
 `
 const Title = styled.h1`
     width: 50%;
     font-size: 60px;
+    @media only screen and (max-width: 480px){
+        width: 100%;
+        font-size: 80px;
+    }
 `
 const Desc = styled.p`
     width: 60%;
     font-weight: 20px;
     margin-top: 10px;
     font-size: 20px;
+    @media only screen and (max-width: 480px){
+     width: 100%;
+     font-size: 23px;
+    }
 `
 const Right = styled.div`
    width: 40%;
    display: flex;
    align-items: center;
+
+   @media only screen and (max-width: 480px){
+        display: none;
+    }
 `
