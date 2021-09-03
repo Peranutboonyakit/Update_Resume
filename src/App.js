@@ -37,19 +37,19 @@ const App = () => {
         </Container>
       </Fade>
 
-      <Bounce top>
+      <Fade right>
         <Container>
           <Education />
           <EducationShape />
         </Container>
-      </Bounce>
+      </Fade>
 
-      <LightSpeed right>
+      
         <Container>
           <Contact />
           <ContactShape />
         </Container>
-      </LightSpeed>
+      
 
 
     </>
