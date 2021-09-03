@@ -59,6 +59,7 @@ const Left = styled.div`
         height: 50%;
         width: 100%;
         padding: 50px;
+        margin-top: 10px;
     }
 `
 const Title = styled.h1`
@@ -98,7 +99,6 @@ const Right = styled.div`
     @media only screen and (max-width: 680px){
         height: 50%;
         width: 100%;
-        padding: 50px;
     }
 `
 //const Container = styled.div``
