@@ -56,9 +56,9 @@ const Left = styled.div`
     width: 50%;
     height: 100vh;
     @media only screen and (max-width: 680px){
-        margin-top: 10px;
         height: 50%;
         width: 100%;
+        padding: 50px;
     }
 `
 const Title = styled.h1`
@@ -74,7 +74,7 @@ const SubTitle = styled.h5`
     font-size: 25px;
     margin-bottom: 10px;
     @media only screen and (max-width: 680px){
-        font-size: 20px;
+        font-size: 18px;
         margin-bottom: 0;
     }
 `
@@ -96,9 +96,9 @@ const Right = styled.div`
     width: 50%;
     height: 100vh;
     @media only screen and (max-width: 680px){
-        margin-top: 20px;
         height: 50%;
         width: 100%;
+        padding: 50px;
     }
 `
 //const Container = styled.div``
