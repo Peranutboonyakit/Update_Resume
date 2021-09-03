@@ -13,9 +13,6 @@ import Education from './components/Education.jsx';
 const App = () => {
   return (
     <>
-
-      
-
       <Fade left>
         <Container>
           <Intro />
