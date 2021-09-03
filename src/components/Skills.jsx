@@ -7,14 +7,14 @@ import css from '../img/Image/css.png'
 import react from '../img/Image/react.png'
 
 
-const Feature = () => {
+const Skills = () => {
     return (
         <Container>
             <Left><Image src={Shenzhen} /></Left>
             <Right>
                 <Title>
                     <Text>
-                        Skill
+                        Skills
                     </Text>
                 </Title>
 
@@ -30,7 +30,7 @@ const Feature = () => {
     )
 }
 
-export default Feature
+export default Skills
 
 const Container = styled.div`
     height: 100%;

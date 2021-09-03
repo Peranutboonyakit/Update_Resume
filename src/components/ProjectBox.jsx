@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 
 
-function Price({link, img}) {
+function ProjectBox({link, img}) {
     return (
         <Container>
             <Box href={`${link}`} target='_blank'>
@@ -12,7 +12,7 @@ function Price({link, img}) {
     )
 }
 
-export default Price
+export default ProjectBox
 const Container = styled.div`
     margin: 30px;
     box-shadow: 2px 5px 15px gray;

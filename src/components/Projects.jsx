@@ -1,12 +1,12 @@
 import React from 'react'
 import styled from 'styled-components'
 import cafe from '../img/cafe.jpg'
-import Price from './Price'
+import ProjectBox from './ProjectBox'
 import exchange from '../img/Image/exchange.png'
 import resume1 from '../img/Image/resume1.jpg'
 import income from '../img/Image/income.png'
 
-const Service = () => {
+const Projects = () => {
     return (
         <Container>
             <Left>
@@ -15,26 +15,24 @@ const Service = () => {
                 </Text>
 
                 <Item>
-                    <Price
+                    <ProjectBox
                         link='https://peranutboonyakitt.vercel.app/'
                         img={resume1} />
-                    <Price
+                    <ProjectBox
                         link='https://peranutboonyakit.github.io/ProjectJS/Exchange%20Money/index.html'
                         img={exchange} />
-                    <Price
+                    <ProjectBox
                         link='https://peranutboonyakit.github.io/ProjectJS/Income%20and%20Expenses/index.html'
                         img={income} />
                 </Item>
             </Left>
 
-            <Right>
-                <Image src={cafe} />
-            </Right>
+            {/*<Right></Right>*/}
         </Container>
     )
 }
 
-export default Service
+export default Projects;
 
 const Container = styled.div`
     height: 100vh;
@@ -73,13 +71,6 @@ const Item = styled.span`
     }
 `
 //////////////////////////////////////// Right
-const Image = styled.img`
-    height: 100%;
-    clip-path: polygon(50% 15%, 100% 50%, 50% 90%, 0% 50%);
-    @media only screen and (max-width: 680px){
-        display: none;
-    }
-`
 const Right = styled.div`
     width: 50%;
     height: 100vh;
