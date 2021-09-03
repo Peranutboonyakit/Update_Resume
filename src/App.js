@@ -44,7 +44,7 @@ const App = () => {
         </Container>
       </Bounce>
 
-      <LightSpeed>
+      <LightSpeed right>
         <Container>
           <Contact />
           <ContactShape />
