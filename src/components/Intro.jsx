@@ -28,7 +28,7 @@ const Image = styled.img`
     width: 75%;
     border-radius: 50%;
     z-index: 1;
-    @media only screen and (max-width: 480px){
+    @media only screen and (max-width: 680px){
         width: 50%;
         justify-content: center;
     }
@@ -38,7 +38,7 @@ const Container = styled.div`
     display: flex;
     padding: 20px;
     z-index: 1;
-    @media only screen and (max-width: 480px){
+    @media only screen and (max-width: 680px){
         flex-direction: column;
         height: 100%;
     }
@@ -50,7 +50,7 @@ const Left = styled.div`
    align-items: center;
    justify-content: center;
 
-   @media only screen and (max-width: 480px){
+   @media only screen and (max-width: 680px){
         width: 100%;
         height: 100%;
     }
@@ -58,7 +58,7 @@ const Left = styled.div`
 const Title = styled.h1`
     width: 50%;
     font-size: 60px;
-    @media only screen and (max-width: 480px){
+    @media only screen and (max-width: 680px){
         width: 100%;
         font-size: 80px;
     }
@@ -68,7 +68,7 @@ const Desc = styled.p`
     font-weight: 20px;
     margin-top: 10px;
     font-size: 20px;
-    @media only screen and (max-width: 480px){
+    @media only screen and (max-width: 680px){
      width: 100%;
      font-size: 23px;
     }
@@ -78,7 +78,7 @@ const Right = styled.div`
    display: flex;
    align-items: center;
 
-   @media only screen and (max-width: 480px){
+   @media only screen and (max-width: 680px){
         width: 100%;
         justify-content: center;
     }

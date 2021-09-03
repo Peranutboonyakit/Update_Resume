@@ -13,6 +13,7 @@ const Service = () => {
                 <Text>
                     <Title>Projects</Title>
                 </Text>
+
                 <Item>
                     <Price
                         link='https://peranutboonyakitt.vercel.app/'
@@ -47,9 +48,15 @@ const Left = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    @media only screen and (max-width: 680px){
+        
+    }
 `
 const Text = styled.span`
     margin-bottom: 50px;
+    @media only screen and (max-width: 680px){
+       margin-bottom: 0;
+    }
 `
 
 const Title = styled.span`
@@ -61,15 +68,23 @@ const Title = styled.span`
 const Item = styled.span`
     display: grid;
     grid-template-columns: auto auto auto;
+    @media only screen and (max-width: 680px){
+        grid-template-columns: auto auto;
+    }
 `
 //////////////////////////////////////// Right
 const Image = styled.img`
     height: 100%;
-
     clip-path: polygon(50% 15%, 100% 50%, 50% 90%, 0% 50%);
+    @media only screen and (max-width: 680px){
+        display: none;
+    }
 `
 const Right = styled.div`
     width: 50%;
     height: 100vh;
     display: flex;
+    @media only screen and (max-width: 680px){
+        display: none;
+    }
 `

@@ -42,6 +42,11 @@ const Education = () => {
 export default Education
 const Container = styled.div`
     display: flex;
+    @media only screen and (max-width: 680px){
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 `
 const Left = styled.div`
     display: flex;
@@ -50,6 +55,10 @@ const Left = styled.div`
     align-items: center;
     width: 50%;
     height: 100vh;
+    @media only screen and (max-width: 680px){
+      height: 50%;
+      width: 100%;
+    }
 `
 const Title = styled.h1`
     margin-bottom: 50px;
@@ -74,5 +83,9 @@ const Right = styled.div`
     align-items: center;
     width: 50%;
     height: 100vh;
+    @media only screen and (max-width: 680px){
+      height: 50%;
+      width: 100%;
+    }
 `
 //const Container = styled.div``

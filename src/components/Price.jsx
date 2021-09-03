@@ -24,6 +24,10 @@ const Container = styled.div`
     align-items: center;
     list-style: none;
     overflow: hidden;
+    @media only screen and (max-width: 680px){
+        width: 150px;
+        height: 155px;
+    }
 `
 const Box = styled.a`
     height: 100%;
@@ -31,6 +35,7 @@ const Box = styled.a`
     flex-direction: column;
     align-items: center;
     list-style: none;
+    
 `
 const Image = styled.img`
     height: 100%;

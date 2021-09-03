@@ -14,7 +14,7 @@ const Feature = () => {
             <Right>
                 <Title>
                     <Text>
-                        Skills
+                        Skill
                     </Text>
                 </Title>
 
@@ -36,6 +36,11 @@ const Container = styled.div`
     height: 100%;
     display: flex;
     z-index: -1;
+    @media only screen and (max-width: 680px){
+       flex-direction: column;
+       align-items: center;
+       justify-content: center;
+    }
 `
 const Left = styled.div`
     width: 50%;
@@ -46,6 +51,9 @@ const Left = styled.div`
 const Image = styled.img`
     width: 75%;
     clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
+    @media only screen and (max-width: 680px){
+      display: none;
+    }
 `
 //////////////////////////////////////// Right
 const Right = styled.div`
@@ -53,6 +61,11 @@ const Right = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: center;
+    @media only screen and (max-width: 680px){
+        width: 100%;
+        height: 100%;
+        align-items: center;
+    }
 `
 const Title = styled.div`
    margin-bottom: 50px;
@@ -65,8 +78,15 @@ const Text = styled.span`
 `
 const BoxImage = styled.div`
     display: flex;
+    @media only screen and (max-width: 680px){
+        display: grid;
+        grid-template-columns: auto auto;
+    }
     `
 const ImageSkill = styled.img`
     width: 150px;
     margin-right: 20px;
+    @media only screen and (max-width: 680px){
+        margin-bottom: 50px;
+    }
 `
