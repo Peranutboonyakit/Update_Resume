@@ -9,7 +9,6 @@ import styled from 'styled-components';
 import Fade from 'react-reveal'
 import Bounce from 'react-reveal/Bounce';
 import Zoom from 'react-reveal/Zoom';
-import LightSpeed from 'react-reveal/LightSpeed';
 
 
 
@@ -44,12 +43,13 @@ const App = () => {
         </Container>
       </Fade>
 
-      
+      <Bounce top>
         <Container>
           <Contact />
           <ContactShape />
         </Container>
-      
+      </Bounce>
+
 
 
     </>
