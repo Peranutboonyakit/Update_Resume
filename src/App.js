@@ -3,29 +3,32 @@ import Skills from './components/Skills.jsx';
 import Intro from './components/Intro.jsx';
 import Projects from './components/Projects.jsx';
 import Education from './components/Education.jsx';
+import Contact from './components/Contact.jsx';
 
 import styled from 'styled-components';
 import Fade from 'react-reveal'
 import Bounce from 'react-reveal/Bounce';
+import Zoom from 'react-reveal/Zoom';
+import LightSpeed from 'react-reveal/LightSpeed';
 
 
 
 const App = () => {
   return (
     <>
-      <Fade left>
+      <Fade top>
         <Container>
           <Intro />
           <IntoShape />
         </Container>
       </Fade>
 
-      <Fade right>
+      <Zoom>
         <Container>
           <Skills />
           <SkillShape />
         </Container>
-      </Fade>
+      </Zoom>
 
       <Fade left>
         <Container>
@@ -41,6 +44,12 @@ const App = () => {
         </Container>
       </Bounce>
 
+      <LightSpeed>
+        <Container>
+          <Contact />
+          <ContactShape />
+        </Container>
+      </LightSpeed>
 
 
     </>
@@ -100,9 +109,20 @@ const EducationShape = styled.div`
   left: 0;
   z-index: -1;
   background-color: #ffeccc;
-  clip-path: polygon(36% 0, 64% 0, 36% 100%, 64% 100%);
+  clip-path: polygon(36% 0, 64% 0, 30% 100%, 70% 100%);
   @media only screen and (max-width: 680px){
     clip-path: polygon(60% 0, 100% 0, 33% 100%, 0% 100%);
     }
+`
+const ContactShape = styled.div`
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  background-color: purple;
+  opacity: 0.6;
+  clip-path: polygon(70% 0, 100% 0%, 100% 100%, 70% 100%);
 `
 

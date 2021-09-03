@@ -1,6 +1,5 @@
 import React from 'react'
 import styled from 'styled-components'
-import cafe from '../img/cafe.jpg'
 import ProjectBox from './ProjectBox'
 import exchange from '../img/Image/exchange.png'
 import resume1 from '../img/Image/resume1.jpg'
@@ -27,7 +26,6 @@ const Projects = () => {
                 </Item>
             </Left>
 
-            {/*<Right></Right>*/}
         </Container>
     )
 }
@@ -68,14 +66,5 @@ const Item = styled.span`
     grid-template-columns: auto auto auto;
     @media only screen and (max-width: 680px){
         grid-template-columns: auto auto;
-    }
-`
-//////////////////////////////////////// Right
-const Right = styled.div`
-    width: 50%;
-    height: 100vh;
-    display: flex;
-    @media only screen and (max-width: 680px){
-        display: none;
     }
 `
