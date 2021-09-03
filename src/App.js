@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components';
 import Feature from './components/Feature.jsx';
 import Intro from './components/Intro.jsx';
-//import Nav from "./components/Nav.jsx";
+
 import Service from './components/Service.jsx';
 import Fade from 'react-reveal'
 import Education from './components/Education.jsx';
@@ -13,8 +13,7 @@ import Education from './components/Education.jsx';
 const App = () => {
   return (
     <>
-{/*      
-        <Nav />*/}
+
       
 
       <Fade left>
