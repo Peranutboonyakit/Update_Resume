@@ -28,6 +28,10 @@ const Image = styled.img`
     width: 75%;
     border-radius: 50%;
     z-index: 1;
+    @media only screen and (max-width: 480px){
+        width: 50%;
+        justify-content: center;
+    }
 `
 const Container = styled.div`
     height: calc(100vh - 50px);
@@ -36,6 +40,7 @@ const Container = styled.div`
     z-index: 1;
     @media only screen and (max-width: 480px){
         flex-direction: column;
+        height: 100%;
     }
 `
 const Left = styled.div`
@@ -74,6 +79,7 @@ const Right = styled.div`
    align-items: center;
 
    @media only screen and (max-width: 480px){
-        display: none;
+        width: 100%;
+        justify-content: center;
     }
 `
