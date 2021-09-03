@@ -56,7 +56,7 @@ const Left = styled.div`
     width: 50%;
     height: 100vh;
     @media only screen and (max-width: 680px){
-        margin-top: 30px;
+        margin-top: 10px;
         height: 50%;
         width: 100%;
     }
@@ -83,7 +83,7 @@ const Decs = styled.p`
     margin-bottom: 50px;
     @media only screen and (max-width: 680px){
         font-size: 15px;
-        margin-bottom: 25px;
+        margin-bottom: 20px;
     }
 `
 
@@ -96,7 +96,7 @@ const Right = styled.div`
     width: 50%;
     height: 100vh;
     @media only screen and (max-width: 680px){
-        margin-top: 40px;
+        margin-top: 20px;
         height: 50%;
         width: 100%;
     }
