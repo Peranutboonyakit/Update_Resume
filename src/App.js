@@ -1,12 +1,12 @@
 import React from 'react'
-import styled from 'styled-components';
 import Feature from './components/Feature.jsx';
 import Intro from './components/Intro.jsx';
-
 import Service from './components/Service.jsx';
-import Fade from 'react-reveal'
 import Education from './components/Education.jsx';
 
+import styled from 'styled-components';
+import Fade from 'react-reveal'
+import Bounce from 'react-reveal/Bounce';
 
 
 
@@ -34,10 +34,13 @@ const App = () => {
         </Container>
       </Fade>
 
-      <Container>
-        <Education />
-        <EducationShape />
-      </Container>
+      <Bounce top>
+        <Container>
+          <Education />
+          <EducationShape />
+        </Container>
+      </Bounce>
+
 
 
     </>

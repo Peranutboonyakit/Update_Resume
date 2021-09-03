@@ -56,8 +56,9 @@ const Left = styled.div`
     width: 50%;
     height: 100vh;
     @media only screen and (max-width: 680px){
-      height: 50%;
-      width: 100%;
+        margin-top: 30px;
+        height: 50%;
+        width: 100%;
     }
 `
 const Title = styled.h1`
@@ -65,14 +66,25 @@ const Title = styled.h1`
     text-decoration: underline salmon;
     font-style: italic;
     font-size: 70px;
+    @media only screen and (max-width: 680px){
+        margin-bottom: 20px;
+    }
 `
 const SubTitle = styled.h5`
     font-size: 25px;
     margin-bottom: 10px;
+    @media only screen and (max-width: 680px){
+        font-size: 20px;
+        margin-bottom: 0;
+    }
 `
 const Decs = styled.p`
     font-size: 20px;
     margin-bottom: 50px;
+    @media only screen and (max-width: 680px){
+        font-size: 15px;
+        margin-bottom: 25px;
+    }
 `
 
 /////////////////////////// Right
@@ -84,8 +96,9 @@ const Right = styled.div`
     width: 50%;
     height: 100vh;
     @media only screen and (max-width: 680px){
-      height: 50%;
-      width: 100%;
+        margin-top: 40px;
+        height: 50%;
+        width: 100%;
     }
 `
 //const Container = styled.div``
