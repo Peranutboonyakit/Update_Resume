@@ -73,13 +73,13 @@ const Content = styled.div`
 const Text = styled.p`
     font-size: 25px;
     line-height: 50px;
-    @media only screen and (max-width: 680px){
-       
-    }
 `
 const Footer = styled.div``
 const Icon = styled.a`
     margin-right: 50px;
+    @media only screen and (max-width: 680px){
+       margin-right: 40px;
+    }
 `
 const Social = styled.img`
     width: 60px;
