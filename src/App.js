@@ -126,6 +126,7 @@ const ContactShape = styled.div`
   clip-path: polygon(75% 0, 100% 0%, 100% 100%, 75% 100%);
   @media only screen and (max-width: 680px){
     clip-path: polygon(10% 0, 0% 0%, 0% 100%, 30% 100%);
+    opacity: 0.5;
     }
 `
 

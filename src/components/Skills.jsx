@@ -86,7 +86,8 @@ const BoxImage = styled.div`
 const ImageSkill = styled.img`
     width: 150px;
     margin-right: 20px;
-    @media only screen and (max-width: 680px){
+    @media only screen and (max-width: 680px) and (max-width: 480px){
         margin-bottom: 50px;
+        width: 110px;
     }
 `
