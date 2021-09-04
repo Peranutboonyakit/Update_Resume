@@ -10,7 +10,9 @@ import react from '../img/Image/react.png'
 const Skills = () => {
     return (
         <Container>
+
             <Left><Image src={Shenzhen} /></Left>
+
             <Right>
                 <Title>
                     <Text>
@@ -77,7 +79,8 @@ const Text = styled.span`
     font-style: italic;
 `
 const BoxImage = styled.div`
-    display: flex;
+    display: grid;
+    grid-template-columns: auto auto auto;
     @media only screen and (max-width: 680px){
         display: grid;
         grid-template-columns: auto auto;
@@ -85,7 +88,7 @@ const BoxImage = styled.div`
     `
 const ImageSkill = styled.img`
     width: 150px;
-    margin-right: 20px;
+    margin: 0 20px 20px 0;
     @media only screen and (max-width: 680px) and (max-width: 480px){
         margin-bottom: 50px;
         width: 110px;
