@@ -111,7 +111,7 @@ const EducationShape = styled.div`
   background-color: #ffeccc;
   clip-path: polygon(36% 0, 64% 0, 30% 100%, 70% 100%);
   @media only screen and (max-width: 680px){
-    clip-path: polygon(60% 0, 100% 0, 33% 100%, 0% 100%);
+    clip-path: polygon(60% 0, 105% 0, 10% 100%, -20% 100%);
     }
 `
 const ContactShape = styled.div`
@@ -123,6 +123,9 @@ const ContactShape = styled.div`
   z-index: -1;
   background-color: purple;
   opacity: 0.6;
-  clip-path: polygon(70% 0, 100% 0%, 100% 100%, 70% 100%);
+  clip-path: polygon(75% 0, 100% 0%, 100% 100%, 75% 100%);
+  @media only screen and (max-width: 680px){
+    clip-path: polygon(10% 0, 0% 0%, 0% 100%, 30% 100%);
+    }
 `
 

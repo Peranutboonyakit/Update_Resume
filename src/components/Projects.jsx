@@ -44,9 +44,6 @@ const Left = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    @media only screen and (max-width: 680px){
-        
-    }
 `
 const Text = styled.span`
     margin-bottom: 50px;
