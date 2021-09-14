@@ -4,6 +4,7 @@ import ProjectBox from './ProjectBox'
 import exchange from '../img/Image/exchange.png'
 import resume1 from '../img/Image/resume1.jpg'
 import income from '../img/Image/income.png'
+import foodmenu from '../img/foodmenu.jpg'
 
 const Projects = () => {
     return (
@@ -14,6 +15,9 @@ const Projects = () => {
                 </Text>
 
                 <Item>
+                    <ProjectBox
+                        link='https://github.com/Peranutboonyakit/Food_Menu'
+                        img={foodmenu} />
                     <ProjectBox
                         link='https://peranutboonyakitt.vercel.app/'
                         img={resume1} />
