@@ -16,7 +16,7 @@ export default ProjectBox
 const Container = styled.div`
     margin: 30px;
     box-shadow: 2px 5px 15px gray;
-    width: 200px;
+    width: 250px;
     height: 250px;
     border-radius: 20px;
      display: flex;
@@ -39,4 +39,5 @@ const Box = styled.a`
 `
 const Image = styled.img`
     height: 100%;
+    width: 100%;
 `
