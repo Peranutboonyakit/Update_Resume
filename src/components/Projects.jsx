@@ -28,10 +28,6 @@ const Projects = () => {
             link="https://peranutboonyakitt.vercel.app/"
             img={resume1}
           />
-          <ProjectBox
-            link="https://peranutboonyakit.github.io/ProjectJS/Exchange%20Money/index.html"
-            img={exchange}
-          />
         </Item>
       </Left>
     </Container>
