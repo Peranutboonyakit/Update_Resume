@@ -1,9 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import ProjectBox from "./ProjectBox";
-import exchange from "../img/Image/exchange.png";
 import resume1 from "../img/Image/resume1.jpg";
-import income from "../img/Image/income.png";
 import foodmenu from "../img/foodmenu.jpg";
 import movieapp from "../img/movieapp.jpg";
 
