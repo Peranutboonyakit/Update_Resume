@@ -4,6 +4,7 @@ import ProjectBox from "./ProjectBox";
 import resume1 from "../img/Image/resume1.jpg";
 import foodmenu from "../img/foodmenu.jpg";
 import movieapp from "../img/movieapp.jpg";
+import bootstrap from "../img/Image/bootstrap.jpg";
 
 const Projects = () => {
   return (
@@ -21,6 +22,10 @@ const Projects = () => {
           <ProjectBox
             link="https://github.com/Peranutboonyakit/Movie_axios"
             img={movieapp}
+          />
+          <ProjectBox
+            link="https://github.com/Peranutboonyakit/Bootstrap"
+            img={bootstrap}
           />
           <ProjectBox
             link="https://peranutboonyakitt.vercel.app/"
