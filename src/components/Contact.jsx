@@ -16,7 +16,7 @@ const Contact = () => {
                 <Content>
                     <Text><b>Address :</b> 28/897 Politan rive soi Nonthaburi 15 Nonthaburi 11000</Text>
                     <Text><b>Phone &nbsp;&nbsp;&nbsp;&nbsp;:</b> 062-525-3851</Text>
-                    <Text><b>Email &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</b> peranut.pepo@hotmail.com</Text>
+                    <Text><b>Email &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</b> peranut.pepo@gmail.com</Text>
                 </Content>
 
                 <Footer>
